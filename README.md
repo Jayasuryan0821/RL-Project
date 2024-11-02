@@ -35,13 +35,13 @@ An ensemble of PPO, A2C, and DDPG is used to select the top-performing agent bas
 4. **Performance Evaluation**: Backtesting is conducted on historical data, and results are compared using metrics like the Sharpe ratio.
 
 ## Results
-Our findings demonstrate that the **TD3** and **A2C** agents performed the best, achieving higher Sharpe ratios and consistent growth in net worth during testing phases. The ensemble strategy provided balanced returns, albeit slightly lower than individual top-performing agents.
+The findings demonstrate that the **TD3** and **A2C** agents performed the best, achieving higher Sharpe ratios and consistent growth in net worth during testing phases. The ensemble strategy provided balanced returns, albeit slightly lower than individual top-performing agents.
 
 ## Getting Started
 
 ### Prerequisites
 - Python 3.9.8 or higher
-- Libraries: `tensorflow`, `pytorch`, `numpy`, `pandas`, `matplotlib`, `gym`, `stable-baselines3`
+- Libraries:  `numpy`, `pandas`, `matplotlib`, `gym`, `stable-baselines3`, 'yfinance'
 
 ### Installation
 Clone this repository:
