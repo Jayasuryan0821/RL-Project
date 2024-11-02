@@ -40,7 +40,7 @@ Our findings demonstrate that the **TD3** and **A2C** agents performed the best,
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
+- Python 3.9.8 or higher
 - Libraries: `tensorflow`, `pytorch`, `numpy`, `pandas`, `matplotlib`, `gym`, `stable-baselines3`
 
 ### Installation
@@ -61,19 +61,8 @@ To train and evaluate the trading bot:
 2. Adjust configurations in `RL_trading_bot.ipynb` as needed.
 3. Run the notebook or Python scripts to start training the agent.
 
-## Project Structure
-- `RL_trading_bot.ipynb`: Main Jupyter notebook for training and evaluating the RL agents.
-- `data/`: Folder containing historical stock data.
-- `models/`: Folder to save trained models.
-- `utils/`: Utility functions for data preprocessing and analysis.
-
 ## Future Work
 1. **Enhanced Risk Management**: Incorporate stop-loss and volatility-adjusted reward functions.
 2. **Hybrid Models**: Combine RL agents with LSTM-based trend forecasting.
 3. **Meta-Learning Framework**: Dynamic weighting of ensemble strategies based on market conditions.
 
-## Acknowledgments
-Special thanks to the Computer Science Department faculty at Manipal Institute of Technology for their guidance.
-
-## References
-- [Stock Trading Simulator on GitHub](https://github.com/Jayasuryan0821/Stock-trading-simulator/blob/main/RL_trading_bot.ipynb)
